@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="788eb5a4-df2a-4d29-8c97-512d575be297">
+  <producedTypes>
+    <objectType typeId="2739f92f-0571-444d-8746-b0d44041867b" valueTypeId="ad64fba4-7b0c-4d25-ab50-cdc984914f7d"/>
+    <managerType typeId="5287229e-3e7c-4115-a81a-9852c48c97b4" valueTypeId="04744001-001b-427d-9af6-59a9eddd7bbf"/>
+  </producedTypes>
+  <name>Материалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Материалы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1452ad4f-4f19-473a-9ef5-a3140176c9e6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

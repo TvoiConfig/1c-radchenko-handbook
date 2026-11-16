@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c495d17-b41b-4740-9dc8-60f8a68374d7">
+  <producedTypes>
+    <objectType typeId="5dbf55e4-26c9-4b86-83de-17330f300c37" valueTypeId="dab7dc9c-7a15-44f4-95ac-87aef437a7fa"/>
+    <refType typeId="07fd499c-7fbe-4bcd-a61a-c70193a74a31" valueTypeId="f02ebd1e-f286-496f-aa61-426ee352a835"/>
+    <selectionType typeId="3074d2dc-629e-4d9d-b9bf-c8e30ba12f88" valueTypeId="c48064cd-b502-41e2-ac21-eba4ad84ebe0"/>
+    <listType typeId="31564911-28df-417c-8efc-4ba00eeb0b90" valueTypeId="1441cba0-da19-469c-a025-827454146241"/>
+    <managerType typeId="154a94db-f946-45cf-a629-038b28a45acd" valueTypeId="51dc132c-e433-4cdd-b439-230d09fb3de9"/>
+    <containerType typeId="af2af4ee-9fff-419c-a4d6-81e9ffc0b7a9" valueTypeId="fcb98bfc-786b-49d2-b819-3325cd58f37b"/>
+  </producedTypes>
+  <name>СвойстваНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ДополнительныеСвойстваНоменклатуры</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ДополнительныеСвойстваНоменклатуры</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
